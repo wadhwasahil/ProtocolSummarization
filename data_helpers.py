@@ -28,3 +28,4 @@ def explode_protocol_summary(text):
         if items[i] == "IV Contrast:":
             iv_contrast = processed_values[i]
     return (protocol, body_part, oral_contrast, iv_contrast)
+
